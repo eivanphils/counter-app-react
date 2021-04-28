@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PrimeraApp from './PrimeraApp';
+import CounterApp from './CounterApp';
 import './styles.css';
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<PrimeraApp saludo="Hola phils garcia" />, divRoot);
+ReactDOM.render(<CounterApp value={12} />, divRoot);
